@@ -1,0 +1,512 @@
+.contain{
+	margin: 0 auto;
+	width: 960px;
+}
+.icon{
+	background: url('../img/icons.png');
+}
+.header{
+	height: 26px;
+	background: #eae3db;
+	width: 100%;
+}
+.header .login_block{
+	float: right;
+	line-height: 26px;
+}
+.header .login_block span{
+	margin-right: 10px;
+}
+.header .login_block a.login{
+	display: inline-block;
+	margin-right: 20px;
+	
+}
+.top{
+	height: 75px;
+	background: #FFFFFF;
+}
+.top .logoshop{
+	display: inline-block;
+	margin-top: 26px;
+}
+.top .top_right{
+	margin-top: 40px;
+}
+
+.top .top_right a{
+	margin: 0 10px;
+	color: #3d3d3d;
+	font-size: 14px;
+	line-height: 22px;
+}
+.iadd{
+	display: inline-block;
+	background-position: -196px -74px;
+	background-color: #ca101a;
+	border-radius: 50%;
+	width: 22px;
+	height: 22px;
+	line-height: 22px;
+	vertical-align: middle;
+}
+.iaddcar{
+	display: inline-block;
+	background-position: -223px -76px;	
+	width: 25px;
+	height: 24px;	
+	vertical-align: middle;
+}
+
+.nav_wrap{
+	background: #3d3d3d;
+	height: 36px;
+	color: #FFFFFF;
+	width: 100%;
+}
+.nav_wrap .hc_shopclassify{
+	z-index: 20;
+	position: relative;
+	width: 160px;
+	display: inline-block;
+	text-align: left;
+	float: left;
+}
+
+.drop{
+	position: relative;
+	width: 100px;
+	background-color: #CA101A;
+	z-index: 24;
+}
+.drop li{
+	position: relative;
+}
+.drop a{
+	display: block;
+	background: #CA101A;
+	text-indent: 10px;
+	line-height: 36px;
+	color: #fff;
+	
+}
+.drop ul ul{
+	width: 100px;
+	position: absolute;
+	left: 0;
+	top: 36px;
+	
+}
+.drop ul ul li{
+	clear: both;
+	text-align: left;
+}
+.drop ul ul ul{
+	/*visibility: hidden;*/
+	position: absolute;
+	left: 100px;
+	top: -1px;
+	border: 1px solid #CA101A;
+}
+.drop ul ul ul li a{
+	clear: both;
+	text-align: left;
+	/*background: yellow;*/
+}
+.drop ul ul ul a{
+	background: #f2f2f2;
+	color: #404040;
+}
+/*.drop ul ul li a:hover .drop ul ul ul a{
+	display: none;
+	background: yellow;
+}*/
+.drop ul ul{
+	display: none;
+}
+.drop .red_bg:hover .drop ul ul{
+	display: block;
+}
+/*以上是下拉列表*/
+.nav_wrap span{
+	display: block;
+	float: left;
+	height: 36px;
+	line-height: 36px;
+}
+.menu a{
+	display: inline-block;
+	
+	width: 100px;
+	text-align: center;
+	color: #f5f3f4;
+}
+.nav_wrap .search_input{
+	line-height: 26px;
+}
+.nav_wrap .search_input .keyword{
+	width: 210px;
+	height: 26px;
+	border: 0;
+	outline: 0;
+	margin-top: 5px;
+	background: #eeeeee;
+	float: left;
+	padding:0 5px;
+}
+.nav_wrap .search_input .keyword.current{
+	background: #FFFFFF;
+}
+.nav_wrap .search_input .research{
+	float: left;
+	display: block;	
+	width: 40px;
+	height: 26px;
+	background-color: #C0191F;
+	margin-top: 5px;
+	background-position: -620px -58px;
+}
+
+/*banner开始*/
+.shop_banner{
+		width: 100%;
+		height: 424px;
+		position: relative;
+		margin-bottom: 20px;
+}
+.banner_pic{
+	 	position: absolute;
+	 	top: 0;
+	 	left: 0;
+	 	z-index: 10;
+	 	width: 100%;
+	 	height:100%;	 	
+	}
+.banner_pic ul{	
+	position: absolute;
+	top: 0;
+	left: 0px;
+	height: 424px;
+}
+.banner_pic ul li{
+	float: left;
+}
+.shop_banner ul.point{
+	position: absolute;
+	bottom: 5%;
+	left: 50%;
+	padding: 10px 0px;
+	margin-left: -54px;
+	z-index: 36;
+	
+}
+.shop_banner ul.point li{
+	float: left;
+	margin: 0 10px;
+	width: 14px;
+	height: 14px;
+	background: #fff;
+	border-radius: 50%;
+	border: 1px solid #CCCCCC;	
+}
+.shop_banner ul.point li.now{
+	background: #CA101A;
+	border: 1px solid #CA101A;
+}
+.arrow{
+	width: 100%;
+	height: 46px;
+	position: absolute;
+	top: 50%;
+	left: 0;
+	margin-top: -23px;
+	z-index: 30;
+	
+}
+.arrow .leftbtn{
+	display: block;
+	width: 26px;
+	height: 46px;
+	background: url('../img/arrow.png') no-repeat left top;
+	cursor: pointer;
+}
+.arrow .rightbtn{
+	cursor: pointer;
+	display: block;
+	width: 26px;
+	height: 46px;
+	background: url('../img/arrow.png') no-repeat 0 -50px;
+}
+/*banner结束*/
+
+/*--recommend1开始--*/
+	.rcm_list{
+		height: 132px;
+		width: 725px;
+		overflow: hidden;
+		position: relative;
+	}
+	.rcm_list ul{
+		width: 2000%;
+		height: 132px;
+		position: absolute;
+		top: 0;
+		left: -200px;
+	}
+	.rcm_list ul li{
+		float: left;
+		position: relative;
+		margin-right: 4px;
+	}
+	.rcm_list ul li img{
+		border: 0;
+	}
+	.rcm_list ul li span{
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		z-index: 10;
+		width: 239px;
+		height: 25px;
+		line-height: 25px;
+		color: #FFFFFF;
+		font-size: 14px;
+		text-align: center;
+		display: block;
+		background: #43403f;
+	}
+/*--recommend1结束--*/
+
+.rcmhao .rcmhao_t img{
+	margin-right: 10px;
+	float: left;
+}
+.rcmhao .rcmhao_t{
+	width: 221px;
+	height:67px;
+	padding-top: 10px;
+	position: relative;
+}
+.rcmhao .rcmhao_t a{
+	display: block;
+	width: 120px;
+	height: 28px;
+	text-align: center;
+	line-height: 28px;
+	color: #FFFFFF;
+	border-radius: 4px;
+	background: #ca101a;
+	float: left;
+	
+	margin-top: 13px;
+}
+.rcmhao .rcmhao_t span{
+	position: absolute;
+	top: 60px;
+	left: 90px;
+	color: #CA101A;
+}
+.rcmhao_d{
+	width: 220px;
+	height: 55px;
+	text-align: center;
+	background: #eaeaea;
+	position: relative;
+}
+.rcmhao_d l{
+	width: 1px;
+	height: 40px;
+	background: #ccc;
+	position: absolute;
+	top:7px;
+	left: 110px;
+}
+.rcmhao_d p{
+	width: 110px;
+	float: left;
+	height: 55px;
+	
+	font-size: 12px;
+}
+.rcmhao_d p span{
+	margin-top: 10px;
+	display: block;
+}
+.rcmhao_d p .number{
+	font-size: 18px;
+	color: black;
+}
+
+
+
+/*product開始*/
+/*.product{
+	margin-top: 26px;
+}*/
+.product .title{
+	height: 30px;
+}
+.product .title h1{
+	font-size: 20px;
+	line-height: 30px;
+	margin-top: 10px;	
+}
+.product .line{
+	width: 960px;
+	height: 1px;
+	background: #CA101A;
+	margin: 0 auto;
+	margin-top: 20px;
+	
+}
+.product_block {
+	border: 2px solid transparent;
+	margin: 10px 3px;
+	width: 210px;
+	height: 310px;
+	display: inline-block;
+	padding: 10px;
+	position: relative;
+	float:left;
+}
+.product_block:hover{
+	border: 2px solid #CA101A;
+}
+.productname{
+	font:100 12px/16px "微软雅黑";
+}
+.product_block a{
+	display: block;
+	width: 218px;
+	height: 218px;
+}
+.product_block a img{
+	margin-bottom: 10px;
+	height: 198px;
+}
+.product span{
+	display: block;
+	margin-top: 6px;
+}
+.product .jifen{
+	font-size: 12px;
+	color: #CA101A;
+}
+.product .jifen i{
+	font-style: normal;
+	font-size: 16px;
+	display: inline-block;
+	margin-right: 5px;
+}
+
+.product .tjifen i{
+	font-size: 12px;
+	font-style: normal;
+	margin-right: 6px;
+	
+}
+.product .dianzan{
+	height: 15px;
+}
+.product .dianzan em{
+	display: inline-block;
+	height: 16px;
+	width: 16px;
+	line-height: 16px;
+	background-position: -648px -18px;
+	vertical-align: bottom;
+}
+.product .shop_car{
+	display: block;
+	height: 44px;
+	width: 60px;	
+	position: absolute;
+	bottom: 20px;
+	right: 12px;
+}
+.product .shop_car em{
+	display: block;
+	height: 30px;
+	width: 60px;
+	background-position: -211px -73px;
+}
+.product_footer{
+	margin: 20px;
+}
+.product_footer a{
+	display: block;
+	font-size: 18px;
+	border: 2px solid #999;
+	width: 246px;
+	height: 34px;
+	line-height: 34px;
+	margin: 0 auto;
+	text-align: center;
+	
+}
+
+
+.nav_fix{
+	position: fixed;
+	top: 70px;
+	left: 50%;
+	margin-left: -600px;
+	z-index: 9999;
+	height: 0;
+	overflow: hidden;
+	
+}
+.nav_fix ul li{
+	width:100px;
+	text-align:left;
+	position:relative;
+	height: 32px;
+	line-height: 32px;
+	margin-top:10px;
+	cursor:pointer;
+}
+.nav_fix li i{
+	background: url(../img/sdbar_ico.png) no-repeat;
+	position: absolute;
+	right: 5px;
+	width: 40px;
+	height: 32px;
+	top: 0;
+}
+.nav_fix li i.son1{
+	background-position: 0 8px;
+}
+.nav_fix li i.son2{
+	background-image: url('../img/znsd_1-01.png');
+	background-position: 0 -6px;
+}
+.nav_fix li i.son3{
+	background-position: 0 -82px;
+}
+.nav_fix li i.son4{
+	background-position: 0 -123px;
+}
+.nav_fix li i.son5{
+	background-position: 0 -167px;
+}
+.nav_fix li i.son6{
+	background-position: 0 -211px;
+}
+.nav_fix li i.son7{
+	background-position: 0 -257px;
+}
+.nav_fix li i.son8{
+	background-position: 0 -300px;
+}
+.nav_fix li i.son9{
+	background-position: 0 -344px;
+}
+.nav_fix li i.son10{
+	background-position: 0 -389px;
+}
+.nav_fix li i.son11{
+	background-position: 0 -458px;
+}
+.nav_fix li span{
+	display: none;
+}

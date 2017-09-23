@@ -1,0 +1,199 @@
+.header_wrap{
+	background: #fff;
+	/*border-bottom: 1px solid #d4d4d4;*/
+	height: 70px;
+	width: 100%;
+}
+.header{
+	width: 1200px;
+	height: 70px;
+	margin: 0 auto;
+	position: relative;
+}
+.top_logo{
+	float: left;
+	width: 186px;
+	height: 38px;
+	overflow: hidden;
+	margin: 17px 48px 9px 0;
+}
+/*.top_logo div.brands_logo{
+	background-position: -575px -1144px;
+	position: relative\9;
+	left: -575px\9;
+	top:-1144px\9;
+}
+.brands_logo{
+	background-image: url('../img/brands_logo.png');
+	background-position: -575px -1144px;
+	background-repeat: no-repeat;
+	display: inline-block;
+	width: 1229px;
+	height: 1628px;
+	background-size: 100% 100%;
+	-webkit-background-size: 100% 100%;
+	-moz-background-size: 100% 100%;
+	-o-background-size: 100% 100%;
+	position:relative\9;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
+			src='‪C:\Users\Administrator\Desktop\如家\img\brands_logo.png',
+			sizingMethod=scale)!important;
+}*/
+#nav{
+	float: left;
+	background: #FFFFFF;
+	line-height: 65px;	
+	font-size: 14px;	
+}
+#nav li{
+	float:left;
+	border-top: 5px solid transparent;
+	margin-right: 33px;
+	position: relative;
+	z-index: 11;
+}
+#nav li .title{
+	display: block;
+}
+#nav li:hover{
+	border-top: 5px solid #C0191F;
+}
+/*.nav li:hover .nav_list{
+	display: block;
+}*/
+#nav li .nav_list{
+	position: absolute;
+	top: 56px;
+	left: 50%;
+	margin-left: -45px;
+	width: 90px;
+	background: #FFFFFF;
+	box-shadow: 0 0 3px 0 #a9a9a9;
+	text-align: center;
+	line-height: 40px;
+	font-size: 14px;
+	display: none;
+}
+.nav_list a{
+	display: block;
+	line-height:40px;
+	text-align: center;
+	font-size:14px;
+}
+
+
+
+
+
+
+.app_download{
+	float:right;
+	margin: 3px 5px 0 0;
+	font-size: 16px;
+	position: relative;
+	height: 30px;
+}
+.customer_service{
+	font-size: 14px;
+	color: #000000;
+	float: left;
+	margin-right: 12px;
+}
+.customer_service:hover{
+	color: #CA101A;
+}
+.app_download_blockp{
+	float: left;
+	position: relative;
+}
+.app_download_block{
+	display: none;
+	position: absolute;
+	top: 25px;
+	right: -5px;
+	width: 145px;
+	height: 149px;
+	background: #FFFFFF;
+	box-shadow: 0 0 3px 0 #A9A9A9;
+	border-radius: 4px;
+	text-align: center;
+	padding: 8px 10px;
+	z-index: 199;
+}
+.app_download_block.now{
+	display: block;
+}
+.app_download_block dt{
+	background: url('../img/app_ewm_new.jpg') no-repeat;
+	width: 90px;
+	height: 90px;
+	margin: 0 auto;
+}
+.app_download_block dd.title{
+	font-size: 14px;
+	margin: 10px 0;
+}
+.app_download_block dd.down{
+	font-size: 14px;
+	color: #FFFFFF;
+	background: #c0191f;
+	width: 86px;
+	height: 21px;
+	line-height: 21px;
+	margin: 0 auto;
+	border-radius: 3px;
+}
+.login{
+	float:right;
+	position: absolute;
+	bottom: 10px;
+	right: 10px;
+	font-size: 14px;
+	height: 20px;
+	/*width: 150px;
+	height: 100px;*/
+	/*overflow: hidden;*/
+}
+.login a{
+	color: black;
+}
+.login span.line{
+	display: inline-block;
+	width: 1px;
+	height: 12px;
+	margin: 0 6px;
+	background: #000000;
+}
+.login .login_link{
+	color: #90704D;
+}
+.login_block{
+	position: absolute;
+	top: 22px;
+	right: 32px;
+	width: 106px;
+	height: 58px;
+	padding: 7px 0 7px 0;
+	background: #FFFFFF;
+	box-shadow: 0 0 5px rgba(0,0,0,.2);
+	border: 1px solid #A9A9A9\9;
+	text-align: center;
+	/*border-radius: 4px;*/
+	display: none;
+	z-index: 199;
+}
+.login_btn{
+	display: block;
+	width: 86px;
+	height: 25px;
+	line-height: 25px;
+	text-align: center;
+	background: #c0191f;
+	color: #FFFFFF;
+	margin: 0 auto;
+	margin-bottom: 10px;
+}
+.check{
+	font-size: 12px;
+	color: #90704D;
+}

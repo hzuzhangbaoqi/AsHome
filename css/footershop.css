@@ -1,0 +1,73 @@
+.foot{
+	height:359px;
+	width: 100%;
+}
+.footer_main{
+	width: 100%;
+	height: 275px;
+	background: #f3f0ed;
+	padding: 42px 0 42px 0px;
+}
+.footer_main .footer_main_l li{
+	float: left;
+	margin-right: 50px;
+}
+.footer_main .footer_main_l li a{
+	display: block;
+	font-size: 14px;
+	margin: 10px 0;
+	color: #595757;
+}
+.footer_main .footer_main_l li .title{
+	font: bold 18px/34px "微软雅黑";
+}
+
+.footer_main_r{
+	float: left;
+	width: 407px;
+	padding:17px 0 0 19px;
+	text-align: center;
+}
+.code{
+	height: 149px;
+}
+.code_app{
+	float: left;
+	margin-right: 70px;
+}
+.code_wechat{
+	float: left;
+}
+.downapp{
+	margin-top: 10px;
+	line-height: 36px;
+	text-align: center;
+	font-size: 16px;
+}
+.footer_main_r .aboutus p{
+	line-height: 26px;
+	text-align: center;
+	font-size: 16px;
+}
+.footer_main_r .aboutus p span{
+	font-weight: bold;
+	font-size: 22px;
+}
+.foot_botter{
+	width: 100%;
+	background: #FFFFFF;
+	height: 63px;
+}
+.foot_botter p{
+	float: left;
+	width: 325px;
+	font-size: 12px;
+	line-height: 16px;
+	color: #979797;
+	padding: 14px 0 0 21px;
+}
+.foot_botter .wangpoice{
+	display: block;
+	float: right;
+	line-height: 63px;
+}

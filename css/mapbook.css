@@ -1,0 +1,374 @@
+.loading{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top:0;
+    background: #000000;
+    z-index: 9999;
+    opacity: 0.8;
+    filter:alpha(opacity=80);
+}
+.loading img{
+    position: absolute;
+    left:50%;
+    top:50%;
+    margin-left: -125px;
+    margin-top: -40px;
+}
+.header{
+    /*width: 100%;*/
+    height:75px;
+    background: #f9f8f6;
+    overflow: hidden;
+}
+.top_logo{
+    float: left;
+    width: 186px;
+    height: 38px;
+    overflow: hidden;
+    margin: 17px 48px 9px 20px;
+}
+.brands_logo{
+    background-image: url(../img/brands_logo.png);
+    background-position: -575px -1144px;
+    display: inline-block;
+    width: 1229px;
+    height: 1628px;
+    background-size: 100% 100%;
+}
+.research{
+    outline: none;
+    padding-top: 15px;
+    overflow: hidden;
+}
+input{
+    outline: none;
+}
+.city input{
+  /*  float: left;*/
+    display: inline-block;
+    width: 50px;
+    height:20px;
+    padding: 11px 12px;
+    overflow: hidden;
+    border: 0;
+    border-radius: 5px;
+    line-height: 43px;
+    font-size:14px;
+    background: #FFFFFF;
+    color: #535353;
+    float: left;
+    border: 1px solid #ccc;
+}
+.research .time{
+    float: left;
+    display: inline-block;
+    width: 409px;
+    height:42px;
+    border: 1px solid #d4d4d4;
+    margin: 0 10px;
+    color: #979797;
+    background: #FFFFFF;
+    border-radius: 5px;
+}
+.entertime{
+    width: 87px;
+    height:20px;
+    padding: 11px 0;
+    color: #535353;
+    line-height:20px;
+    background: none;
+    border: 0;
+    float: left;
+    padding-left: 26px;
+}
+.enterday{
+    width:32px;
+    height:20px;
+    border: 0;
+    line-height: 20px;
+    padding: 11px 0;
+    color: #979797;
+    float: left;
+}
+.research .time span{
+    float: left;
+    line-height:42px;
+    font-size: 14px;
+}
+.research code{
+    float: left;
+    width: 16px;
+    height:1px;
+    margin: 21px  0 0 20px;
+    background:#000000;
+}
+.leavetime{
+    width: 87px;
+    height:20px;
+    color: #535353;
+    padding: 11px 0;
+    background: none;
+    border: 0;
+    float: left;
+    padding-left: 26px;
+    line-height:20px;
+}
+.leaveday{
+    width:32px;
+    background: none;
+    height:20px;
+    line-height:20px;
+    padding:11px 0;
+    color: #979797;
+    border: 0;
+    float: left;
+}
+.research .dist input{
+    display: inline-block;
+    width:179px;
+    height:20px;
+    padding: 11px 12px;
+    overflow: hidden;
+    border: 0;
+    border-radius: 5px;
+    line-height: 21px;
+    font-size:14px;
+    background: #FFFFFF;
+    color: #535353;
+    float: left;
+    border: 1px solid #ccc;
+}
+.research .researchbtn input{
+    color: #FFFFFF;
+    background: #CA101A;
+    padding: 12px 12px;
+    line-height:20px;
+    border: 0;
+    border-radius: 5px;
+    float: left;
+    margin-left:10px;
+}
+.research a.list{
+    font-size: 16px;
+    margin-left: 10px;
+    color: #535353;
+    line-height: 40px;
+    overflow: hidden;
+}
+.research a:hover{
+    text-decoration: underline;
+}
+.chlist{
+    height:39px;
+    background-color: #FFFFFF;
+    box-shadow: -1px 2px 2px 0 #ddd;
+    padding-left: 10px;
+    position: relative;
+    overflow: hidden;
+}
+.chlist li{
+    display: inline-block;
+    width: 110px;
+    height:39px;
+    position: relative;
+}
+.chlist li a{
+    display: block;
+    margin-top: 13px;
+    height: 29px;
+    text-align: center;
+    font-size: 16px;
+}
+
+
+.map_side{
+    width: 295px;
+    position: fixed;
+    top:80px;
+    right:0;
+    border-left: 1px solid #e5e5e5;
+    background-color: #FFFFFF;
+    padding: 0px 5px 0 10px;
+    z-index: 852;
+    box-shadow: 0 3px 3px 0 rgba(0,0,0,0.5);
+}
+.side_filter{
+    height: 47px;
+}
+.side_filter ul li{
+    border-bottom:2px solid #cccccc;
+    float: left;
+    height: 47px;
+    width: 96px;
+    line-height: 47px;
+    text-align: center;
+    font-size:14px;
+}
+.side_filter ul li.now{
+    border-color: #ca101a;
+}
+
+
+
+
+.listbtn{
+    position: absolute;
+    bottom:0px;
+    background: #ffffff;
+    padding: 18px 3px 18px 0;
+    margin: 0 auto !important;
+}
+.listbtn a{
+    display: block;
+    float: left;
+    width: 26px;
+    height:26px;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 26px;
+    border: 1px solid #CCCCCC;
+    margin-right: 5px;
+}
+
+.listbtn span{
+    display: block;
+    float: left;
+    width: 26px;
+    height:26px;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 26px;
+    margin-right: 5px;
+}
+
+.hotel_list{
+    overflow-y: auto;
+    position: relative;
+    margin-right: 5px;
+    width: 285px;
+}
+.hotel_list dl{
+    padding: 11px 0;
+    cursor: pointer;
+    border-bottom: 1px dashed #CCCCCC;
+    /*height: 50px;*/
+}
+i{
+    background-image: url("../img/public_img.png");
+    display: inline-block;
+    width: 400px;
+    height:322px;
+    background-size:100% 100%;
+    -webkit-background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.hotel_list dt{
+    width: 45px;
+    position: relative;
+    float: left;
+}
+.hotel_list div{
+    width: 30px;
+    height:40px;
+
+    line-height:40px;
+    text-align: center;
+    overflow: hidden;
+}
+.hotel_list div span{
+    position: absolute;
+    left:11px;
+    top:-5px;
+    font-size:14px;
+    color: #90704d;
+    z-index: 111;
+}
+.hotel_list i{
+    background-position:-120px -171px;
+    left: -120px\9;
+    top:-171px\9;
+    position: relative\9;
+
+}
+.hotel_list dl{
+    position: relative;
+}
+.hotel_list dl dt{
+    float: left;
+    width: 45px;
+    position: relative;
+
+}
+
+.hotel_list .info .hotel_name{
+    font-size:14px;
+    margin-bottom: 5px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.hotel_list .score{
+    height:15px;
+    position: relative;
+    display: inline-block;
+    width: 84px;
+    /*margin-bottom: 5px;*/
+}
+.hotel_list .score .son1{
+    width: 84px;
+    height:15px;
+    overflow: hidden;
+}
+.hotel_list .score .son1 i{
+    background-position: -279px -25px;
+    left: 279px\9;
+    top: -25px\9;
+    position: relative\9;
+    background-size: 100% 100%;
+}
+.hotel_list .score .son2{
+    position: absolute;
+    top:0;
+    left:0;
+    width: 50px;
+}
+.hotel_list .score .son2 i{
+    background-position: -190px -25px;
+    left: 279px\9;
+    top: -25px\9;
+    position: relative\9;
+    background-size: 100% 100%;
+}
+.hotel_list .scorenum span{
+    font-size:14px;
+    position: absolute;
+    top:31px;
+    left:135px;
+}
+.hotel_list .pinjia{
+    margin-top: 8px;
+    margin-left: 45px;
+}
+.hotel_list .price a{
+    font-size:14px;
+    color: #ca101a;
+    display: block;
+    position: absolute;
+    bottom: 5px;
+    right:10px
+}
+.hotel_list .price a span{
+    font-size: 20px;
+}
+
+#container{
+   /* width: 100%;
+    height: 100%;*/
+   /* position: absolute;
+    top:0;
+    left:0;
+    z-index: -333;*/
+}

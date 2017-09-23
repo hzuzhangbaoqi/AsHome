@@ -1,0 +1,841 @@
+.mainyz_w1200{
+	width: 1200px;
+	margin: 0 auto;
+}
+.header{
+	width: 100%;
+	height: 75px;
+	background: #f18e1a;
+}
+.logo{
+	width: 100px;
+	padding-top: 15px;
+	display: inline-block;
+	float: left;
+}
+ul.nav{
+	float: left;
+	margin-left: 270px;
+}
+ul.nav li{
+	float: left;
+	width: 100px;
+	font-size: 16px;
+	text-align: center;
+	line-height: 75px;
+	height: 75px;
+}
+ul.nav li.now{
+	background: #f9b903;
+}
+ul.nav li a{
+	color: #FFFFFF;
+}
+.login a,.login span{
+	font-size: 16px;
+	color: #FFFFFF;
+	line-height: 75px;
+}
+
+
+/*banner开始*/
+.banner{
+	position: relative;
+	z-index:4;
+	
+	height: 466px;
+	min-width: 1200px;
+}
+.banner_img{
+	position: relative;
+	z-index: 2;
+	overflow: hidden;
+	height: 470px;
+	width: 100%;
+}
+.banner_img li{
+	overflow: hidden;
+	height: 470px;
+	background-image: url(../img/loading (2).gif) center center no-repeat;
+	
+}
+.banner_img li a{
+	float: left;
+	width: 100%;
+	height: 100%;
+	background-position: center center;
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+ul.points{
+	position: absolute;
+	bottom: 30px;
+	right: 197px;
+	z-index: 10;
+}
+ul.points li{
+	float: left;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background: #fff;
+	margin-right: 10px;
+	cursor: pointer;
+}
+
+ul.points li.now{
+	background: #e98a19;
+}
+
+.researchya{
+	width: 680px;
+	height: 98px;
+	position: absolute;
+	bottom: 33px;
+	left: 50%;
+	margin-left: -340px;
+	/*background: #FFFFFF;*/
+	z-index: 99;
+}
+.researchT input{
+	height: 52px;
+	line-height: 52px;
+	border: 0;
+	outline: none;
+	padding: 0;
+	background: #FFFFFF;
+}
+.researchT .city{
+	width: 98px;
+	text-align: center;
+	color: #f18e1a;
+	font-size: 16px;
+	cursor: pointer;
+	float: left;
+}
+.researchT em.tr{
+	 position: absolute;
+	 top: 25px;
+	 left: 75px;
+	 width:0;
+     height:0;
+     border:5px solid;
+     border-color:red green blue black;
+     border-color: #f18e1a transparent transparent   transparent;
+     cursor: pointer;
+}
+.researchT span{
+	width: 2px;
+	height: 22px;
+	background: #CCCCCC;
+	margin-top: 15px;
+	float: left;
+	display: inline-block;
+	/*position: absolute;
+	top: 0;*/
+	/*margin-left: 108px;*/
+}
+.researchT .keywordre{
+	width: 304px;
+	font-size: 15px;
+	color: #CCCCCC;
+	line-height: 22px;
+	height: 22px;
+	padding: 15px 0 15px 56px;	
+	float: left;
+}
+.researchT em.fd{
+	position: absolute;
+	top: 18px;
+	left: 120px;
+	background:url(../img/fangdajing_03.png) no-repeat;
+	width: 18px;
+	height: 18px;	
+}
+.researchT .btnrearch{
+	width: 104px;
+	background: #f08201;
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 16px;
+	border-radius: 5px;
+	float: left;
+	margin-right: 10px;
+}
+.researchT .mapbtnre{
+	width: 106px;
+	background: #F08201;
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 16px;
+	border-radius: 5px;
+	float: left;
+}
+.researchB{
+	width:666px;
+	height: 46px;
+	line-height: 46px;
+	background: #6a6968\9;
+	background: #55504f;
+	opacity: 0.8;
+	padding-left: 14px;
+	float: left;
+}
+.researchB li{
+	float: left;
+	margin-right: 28px;
+	font-size: 14px;
+	cursor: pointer;
+	
+}
+.researchB li span{
+	
+	color: #FFFFFF;
+}
+/*.banner_img li a:nth-of-type(1){
+	background-image: url('../img/banneryazhu2.jpeg');
+}*/
+/*banner结束*/
+
+/*<!--最新房源开始-->*/
+.new_hotel{
+	width: 100%;
+	/*background: yellow;*/
+	height: 376px;
+}
+.new_hotel h4{
+	text-align: center;
+	font-size: 26px;
+	line-height: 60px;
+	padding: 2px 0 10px;
+	color: #333;
+}
+.new_hotel ul li{
+	border-radius: 5px;
+	width: 397px;
+	height: 263px;
+	position: relative;
+	overflow: hidden;
+	float: left;
+	margin-right: 4px;
+}
+.new_hotel ul li img{
+	border-radius: 5px;
+	display: block;
+}
+.hotel_n_price{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	background: rgba(254,14,2,0.5);
+	background: #da5e64\9;
+	border-radius: 5px;
+	height: 56px;
+	line-height: 56px;
+	width: 370px;
+	padding: 0 13px;
+	z-index: 6;
+	overflow: hidden;
+}
+.hotel_n_price a{
+	color: #FFFFFF;
+	font-size: 14px;
+}
+.hotel_n_price .hotel_price{
+	font-size: 16px;
+}
+.hotel_n_price .hotel_price i{
+		font-style: normal;
+		margin-right: 3px;
+}
+.hotel_n_price .hotel_price span{
+	font-size: 12px;
+	margin-left: 3px;
+}
+
+.mouse_block_wrap{
+	display: none;
+	width: 387px;
+	height: 253px;
+	background: rgba(255,255,255,0.5);
+	/*opacity: 0.5;*/
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 111;
+	padding: 5px;
+}
+.mouse_block{	
+	
+	width: 377px;
+	height: 243px;
+	border: 4px solid #f6b701;
+	text-align: center;
+	position: relative;
+	
+}
+.mouse_block a{
+	display: block;
+	width: 120px;
+	height: 30px;
+	font-size: 16px;
+	background: #f6b701;
+	text-align: center;
+	color: #FFFFFF;
+	line-height: 30px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -60px;
+	margin-top: -15px;
+}
+/*<!--最新房源结束-->*/
+
+/*公寓开始*/
+.new_douhaogongyu{
+	width: 100%;
+	background: #f9f6f7;
+	height: 376px;
+}
+.new_douhaogongyu h4{
+	text-align: center;
+	font-size: 26px;
+	line-height: 60px;
+	padding: 2px 0 10px;
+	color: #d0111a;
+	position: relative;
+	
+}
+.new_douhaogongyu h4 i{
+	position: absolute;
+	top: 15px;
+	left: 490px;
+	width: 50px;
+	height: 40px;
+	background: url('../img/icon_homeapatitle.png') no-repeat 0 0;
+}
+.new_douhaogongyu ul li{
+	border-radius: 5px;
+	width: 397px;
+	height: 263px;
+	position: relative;
+	overflow: hidden;
+	float: left;
+	margin-right: 4px;
+}
+.new_douhaogongyu ul li img{
+	border-radius: 5px;
+	display: block;
+}
+.new_douhaogongyu .hotel_n_price{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	background: rgba(254,14,2,0.5);
+	background: #da5e64\9;
+	border-radius: 5px;
+	height: 56px;
+	line-height: 56px;
+	width: 370px;
+	padding: 0 13px;
+	z-index: 6;
+	overflow: hidden;
+	text-align: center;
+}
+.new_douhaogongyu .hotel_n_price a{
+	color: #FFFFFF;
+	font-size: 14px;
+}
+.new_douhaogongyu .hotel_n_price .hotel_price{
+	font-size: 16px;
+}
+.new_douhaogongyu .hotel_n_price .hotel_price i{
+		font-style: normal;
+		margin-right: 3px;
+}
+.new_douhaogongyu .hotel_n_price .hotel_price span{
+	font-size: 12px;
+	margin-left: 3px;
+}
+
+.new_douhaogongyu .mouse_block_wrap{
+	display: none;
+	width: 387px;
+	height: 253px;
+	background: rgba(255,255,255,0.5);
+	/*opacity: 0.5;*/
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 111;
+	padding: 5px;
+}
+.new_douhaogongyu .mouse_block{	
+	
+	width: 377px;
+	height: 243px;
+	border: 4px solid #f6b701;
+	text-align: center;
+	position: relative;
+	
+}
+.new_douhaogongyu .mouse_block a{
+	display: block;
+	width: 120px;
+	height: 30px;
+	font-size: 16px;
+	background: #f6b701;
+	text-align: center;
+	color: #FFFFFF;
+	line-height: 30px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -60px;
+	margin-top: -15px;
+}
+/*公寓结束*/
+
+/*青巢开始*/
+.new_qingcaogongyu{
+	width: 100%;
+	background: #FFFFFF;
+	height: 376px;
+}
+.new_qingcaogongyu h4{
+	text-align: center;
+	font-size: 26px;
+	line-height: 60px;
+	padding: 2px 0 10px;
+	
+	position: relative;
+	color: #33ff66;
+}
+.new_qingcaogongyu h4 i{
+	position: absolute;
+	top: 15px;
+	left: 490px;
+	width: 50px;
+	height: 40px;
+	background: url('../img/icon_homeapatitle.png') no-repeat -50px 0;
+}
+.new_qingcaogongyu ul li{
+	border-radius: 5px;
+	width: 397px;
+	height: 263px;
+	position: relative;
+	overflow: hidden;
+	float: left;
+	margin-right: 4px;
+}
+.new_qingcaogongyu ul li img{
+	border-radius: 5px;
+	display: block;
+}
+.new_qingcaogongyu .hotel_n_price{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	background: rgba(254,14,2,0.5);
+	background: #da5e64\9;
+	border-radius: 5px;
+	height: 56px;
+	line-height: 56px;
+	width: 370px;
+	padding: 0 13px;
+	z-index: 6;
+	overflow: hidden;
+	text-align: center;
+}
+.new_qingcaogongyu .hotel_n_price a{
+	color: #FFFFFF;
+	font-size: 14px;
+}
+.new_qingcaogongyu .hotel_n_price .hotel_price{
+	font-size: 16px;
+}
+.new_qingcaogongyu .hotel_n_price .hotel_price i{
+		font-style: normal;
+		margin-right: 3px;
+}
+.new_qingcaogongyu .hotel_n_price .hotel_price span{
+	font-size: 12px;
+	margin-left: 3px;
+}
+
+.new_qingcaogongyu .mouse_block_wrap{
+	display: none;
+	width: 387px;
+	height: 253px;
+	background: rgba(255,255,255,0.5);
+	/*opacity: 0.5;*/
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 111;
+	padding: 5px;
+}
+.new_qingcaogongyu .mouse_block{	
+	
+	width: 377px;
+	height: 243px;
+	border: 4px solid #f6b701;
+	text-align: center;
+	position: relative;
+	
+}
+.new_qingcaogongyu .mouse_block a{
+	display: block;
+	width: 120px;
+	height: 30px;
+	font-size: 16px;
+	background: #f6b701;
+	text-align: center;
+	color: #FFFFFF;
+	line-height: 30px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -60px;
+	margin-top: -15px;
+}
+/*公寓结束*/
+
+/*盗号之家开始*/
+.new_daohaozhijia{
+	width: 100%;
+	background: #f9f6f7;
+	height: 376px;
+}
+.new_daohaozhijia h4{
+	text-align: center;
+	font-size: 26px;
+	line-height: 60px;
+	padding: 2px 0 10px;
+	color: #e6800e;
+	position: relative;
+	
+}
+.new_daohaozhijia h4 i{
+	position: absolute;
+	top: 15px;
+	left: 490px;
+	width: 50px;
+	height: 40px;
+	background: url('../img/icon_homeapatitle.png') no-repeat -100px 0;
+}
+.new_daohaozhijia ul li{
+	border-radius: 5px;
+	width: 397px;
+	height: 263px;
+	position: relative;
+	overflow: hidden;
+	float: left;
+	margin-right: 4px;
+}
+.new_daohaozhijia ul li img{
+	border-radius: 5px;
+	display: block;
+}
+.new_daohaozhijia .hotel_n_price{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	background: rgba(254,14,2,0.5);
+	background: #da5e64\9;
+	border-radius: 5px;
+	height: 56px;
+	line-height: 56px;
+	width: 370px;
+	padding: 0 13px;
+	z-index: 6;
+	overflow: hidden;
+	text-align: center;
+}
+.new_daohaozhijia .hotel_n_price a{
+	color: #FFFFFF;
+	font-size: 14px;
+}
+.new_daohaozhijia .hotel_n_price .hotel_price{
+	font-size: 16px;
+}
+.new_daohaozhijia .hotel_n_price .hotel_price i{
+		font-style: normal;
+		margin-right: 3px;
+}
+.new_daohaozhijia .hotel_n_price .hotel_price span{
+	font-size: 12px;
+	margin-left: 3px;
+}
+
+.new_daohaozhijia .mouse_block_wrap{
+	display: none;
+	width: 387px;
+	height: 253px;
+	background: rgba(255,255,255,0.5);
+	/*opacity: 0.5;*/
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 111;
+	padding: 5px;
+}
+.new_daohaozhijia .mouse_block{	
+	
+	width: 377px;
+	height: 243px;
+	border: 4px solid #f6b701;
+	text-align: center;
+	position: relative;
+	
+}
+.new_daohaozhijia .mouse_block a{
+	display: block;
+	width: 120px;
+	height: 30px;
+	font-size: 16px;
+	background: #f6b701;
+	text-align: center;
+	color: #FFFFFF;
+	line-height: 30px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -60px;
+	margin-top: -15px;
+}
+/*盗号之家结束*/
+
+
+/*公寓服务开始*/
+.hotel_service{
+	padding: 60px 0;
+	text-align: center;
+}
+.hotel_service .title{
+	font-size: 30px;
+	color: #333;
+}
+.hotel_service .content{
+	padding: 20px 0 40px;
+	font-size: 17px;
+	color: #aaabab;
+	line-height: 23px;
+}
+
+.service_hot{
+	background: #f9f6f7;
+	width: 100%;
+}
+.service_hot .service_hot_r{
+	float: right;
+	width: 392px;
+}
+.service_hot .service_hot_r dl{
+	height: 162px;
+	padding: 34px 27px 0 22px;
+	background: url(../img/home_service_list1.png) no-repeat 0 0;
+	font-size: 15px;
+	color: #FFFFFF;
+	margin-bottom: 10px;
+}
+.service_hot .service_hot_r dl dt{
+	padding: 0 0 25px 13px;
+	font-size: 19px;
+}
+.service_hot .service_hot_r dl dd{
+	padding: 0 0 0 13px;
+	line-height: 32px;
+	background: url(../img/home_service_yuan.png) 0 center no-repeat;
+}
+.service_hot .service_hot_r dl dd a{
+	overflow: hidden;
+	display: block;
+	height: 32px;
+	color: #fff;
+	white-space: nowrap;
+	text-overflow:ellipsis ;
+	background: url(../img/home_service_arrow.png) right center no-repeat;
+}
+.society_life p.title{
+	width: 1200px;
+	height: 1px;
+	margin:50px 0;
+	position: relative;
+	background: url('../img/home_service_line.png') repeat-x;
+}
+.society_life p a{
+	display: block;
+	height: 20px;
+	background:#FFFFFF;
+	width: 140px;
+	font-size: 16px;
+	margin: 0 auto;
+	text-align: center;
+	line-height: 20px;
+	/*margin-top: -10px;*/
+	position: absolute;
+	top: -8px;
+	left: 50%;
+	margin-left: -70px;
+}
+.society_life p span{
+	display: block;
+	width: 20px;
+	height: 10px;
+	position: absolute;
+	left: 50%;
+	margin-left: -10px;
+	top: 20px;
+	background: #FFFDEF;
+}
+.home_service_sqa{
+	overflow: hidden;
+	position: relative;
+	padding: 35px 0;
+
+}
+.home_service_sqa dl{
+	position: relative;
+	float:left;
+	width: 200px;
+	height: 65px;
+	padding: 17px 0 0 85px;
+	line-height: 24px;
+	margin-right: 115px;
+}
+.home_service_sqa dt{
+	float: left;
+	width: 82px;
+	height: 82px;
+	background: url('../img/home_service_icon.png') no-repeat 0 0;
+}
+.home_service_sqa dd{
+	font-size: 16px;
+	float: left;
+	line-height:82px ;
+	margin-left: 37px;
+}
+.shejiaohuodong{
+	text-align: center;
+	margin-top: 50px;
+}
+.shejiaohuodong .Title{
+	font-size: 30px;
+	color: #333;
+}
+.shejiaohuodong .Content{
+	padding: 20px 0 40px;
+	font-size: 17px;
+	color: #aaabab;
+	line-height: 23px;
+}
+.smallmovie{
+	width: 100%;
+	height: 400px;
+	background: #f9f6f7;
+}
+.smallmovie .moviebao{
+	width: 1200px;
+	height: 400px;
+	background: url('../img/video_bgimg_withoutbtn.png') no-repeat center;
+	border-radius: 10px;
+}
+.smallmovie .moviebao a{
+	height: 140px;
+	width: 140px;
+	position: absolute;
+	/*top: 75px;*/
+	right: 342px;
+	cursor: pointer;
+}
+.smallmovie .moviebao img{
+	height: 140px;
+	width: 140px;
+}
+
+
+/*footer开始*/
+.footer{
+	width: 100%;
+	height: 198px;
+	background: #f5eff2;
+	padding-bottom: 30px;
+}
+.footer .footlogo{
+	display: inline-block;
+	margin-top: 36px;
+	float: left;
+	margin-right: 37px;
+	margin-left: 74px;
+}
+.footer .callme{
+	display: inline-block;
+	font-size: 16px;
+	margin-top: 38px;
+	color: #a480aa;
+	float: left;
+}
+.footer .callme p.phone{
+	font:200 20px/32px "微软雅黑";
+	color: #000000;
+}
+.footer .callme p.service_time{
+	margin-top: 8px;
+}
+.footer ul.code{
+	display: inline-block;
+	float: left;
+	margin-top: 35px;
+	margin-left: 55px;
+}
+.footer ul.code li{
+	float: left;
+	text-align: center;
+	margin-right: 12px;
+}
+.footer ul.code li img{
+	width: 90px;
+	height: 90px;
+}
+.footer ul.code li p{
+	margin-top: 6px;
+}
+.footer .line{
+	height: 109px;
+	width: 2px;
+	background: #e7dee4;
+	display: inline-block;
+	float: left;
+	margin: 45px 72px 0 26px;
+}
+ul.question{
+	display: inline-block;
+	float: left;
+	padding-top: 35px;
+}
+ul.question li{
+	float: left;
+	margin-right: 42px;
+	text-align: center;
+}
+ul.question li a{
+	display: block;
+}
+ul.question li a.title{
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 30px;
+}
+ul.question li a{
+	margin-top: 13px;
+	font-size: 12px;
+}
+
+.footer .copyright{
+	text-align: center;
+	color: #D4D4D4;
+}
+/*footer结束*/

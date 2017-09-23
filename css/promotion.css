@@ -1,0 +1,103 @@
+.list_location{
+    font-size:12px;
+    margin-top: 15px;
+    color: #979797;
+}
+.list_location .location{
+    color: #535353;
+}
+.big_banner{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 15px 15px 25px;
+    text-align: center;
+}
+.big_banner:hover{
+   box-shadow: 0 0 10px 0 rgba(0,0,0,0.23);
+}
+.big_banner h3{
+    margin-top: 20px;
+    line-height:26px;
+    font-size:20px;
+    color: #535353;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.big_banner p{
+    margin-top:12px;
+    font-size: 14px;
+    line-height: 19px;
+   color: #979797;
+}
+.big_banner .btn{
+    margin-top: 22px;
+}
+.big_banner span{
+    display: inline-block;
+    width: 110px;
+    height:30px;
+    line-height: 30px;
+    border: 1px solid #90704d;
+    border-radius: 5px;
+    font-size:14px;
+    color: #90704d;
+    /*margin:0 auto;*/
+}
+.big_banner span:hover{
+    background: #90704d;
+    color: #FFFFFF;
+}
+
+
+/*smallbanner开始*/
+.small_bannerUl li{
+	float:left;
+}
+.small_bannerUl .leftsmall{
+	margin-right: 70px;
+}
+.small_bannerUl .lastsmall{
+	margin-bottom: 40px;
+}
+.small_banner{
+	display: block;
+	margin-top: 60px;
+    padding: 10px 15px 25px;
+    width: 530px;
+    float: left;
+}
+.small_banner:hover{
+   box-shadow: 0 0 10px 0 rgba(0,0,0,0.23);
+}
+.small_banner h3{
+    margin-top: 20px;
+    line-height:26px;
+    font-size:20px;
+    color: #535353;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.small_banner p{
+    margin-top:12px;
+    font-size: 14px;
+    line-height: 19px;
+   color: #979797;
+}
+.small_banner .btn{
+    margin-top: 22px;
+    text-align: center;
+}
+.small_banner span{
+	cursor: pointer;
+    display: inline-block;
+    width: 110px;
+    height:30px;
+    line-height: 30px;
+    border: 1px solid #90704d;
+    border-radius: 5px;
+    font-size:14px;
+    color: #90704d;
+    /*margin:0 auto;*/
+}

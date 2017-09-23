@@ -1,0 +1,756 @@
+em{
+	background-image: url('../img/brand_logo.png');
+	background-repeat: no-repeat;
+	display: inline-block;
+	background-size: 100% 100%;
+	-webkit-background-size: 100% 100%;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
+			src='C:\Users\Administrator\Desktop\如家\img\brand_logo.png',
+			sizingMethod=scale)!important
+}
+.home_logo_nav li{
+	position: absolute;
+	top: 0;
+	width: 139px;
+	height: 98px;
+	padding-top: 15px;
+	text-align: center;
+	z-index: 99;
+	cursor: pointer;
+	left: 20px;
+}
+
+.home_logo_nav{
+	position: relative;
+	height: 96px;
+}
+.home_logo_nav li.home_jianguo_logobg{
+	left: 0px;
+	width: 140px;
+}
+
+
+.home_jianguo_icon{
+	width: 106px;
+	height: 70px;
+	display: inline-block;
+	overflow: hidden;
+}
+.home_jianguo_span{
+	background-position: 0 0;
+	width: 685px;
+	height: 930px;
+	position: relative\9;
+	left: 0\9;
+	top:0\9;
+}
+
+
+/*pinyi开始*/
+
+.home_logo_nav li.home_puyin_logobg{
+	left: 210px;
+}
+
+.home_puyin_icon{
+	width: 68px;
+	height: 70px;
+	display: inline-block;
+	overflow: hidden;
+}
+.home_puyin_span{
+	background-position: -116px 0;
+	width: 685px;
+	height: 930px;
+	position: relative\9;
+	left: -116px\9;
+	top:0\9;
+}
+
+/*nanyuan*/
+.home_logo_nav li.home_nanyuan_logobg{
+	left: 420px;
+}
+
+.home_nanyuan_icon{
+	width: 68px;
+	height: 70px;
+	display: inline-block;
+	overflow: hidden;
+}
+.home_nanyuan_span{
+	background-position: -194px 0px;
+	width: 685px;
+	height: 930px;
+	position: relative\9;
+	left: -194px\9;
+	top:0px\9;
+}
+
+
+
+.home_logo_nav li.home_puyin_logobg{
+	left: 210px;
+}
+
+.home_puyin_icon{
+	width: 68px;
+	height: 70px;
+	display: inline-block;
+	overflow: hidden;
+}
+.home_puyin_span{
+	background-position: -116px 0px;
+	width: 685px;
+	height: 930px;
+	position: relative\0;
+	left: 116px\0;
+	top:0px\0;
+}
+
+/*nanyuan*/
+.home_logo_nav li.home_nanyuan_logobg{
+	left: 420px;
+}
+
+.home_nanyuan_icon{
+	width: 68px;
+	height: 70px;
+	display: inline-block;
+	overflow: hidden;
+}
+.home_nanyuan_span{
+	background-position: -194px 0px;
+	width: 685px;
+	height: 930px;
+	/*position: relative\0;
+	left: 116px\0;
+	top:0px\0;*/
+}
+
+/*jinglun*/
+
+.home_logo_nav li.home_jinglun_logobg{
+	left:630px;
+}
+
+.home_jinglun_icon{
+	width: 90px;
+	height: 70px;
+	display: inline-block;
+	overflow: hidden;
+}
+.home_jinglun_span{
+	background-position: -271px 0px;
+	width: 685px;
+	height: 930px;
+	position: relative\9;
+	left: -271px\9;
+	top:0px\9;
+}
+/*feiman*/
+
+.home_logo_nav li.home_feiman_logobg{
+	left:840px;
+}
+
+.home_feiman_icon{
+	width: 80px;
+	height: 70px;
+	display: inline-block;
+	overflow: hidden;
+}
+.home_feiman_span{
+	background-position: -370px 0px;
+	width: 685px;
+	height: 930px;
+	/*position: relative\0;
+	left: 116px\0;
+	top:0px\0;*/
+}
+
+/*
+nanshan*/
+.home_logo_nav li.home_nanshan_logobg{
+	left:1050px;
+	width:40px;
+}
+
+.home_nanshan_icon{
+	width: 90px;
+	height: 70px;
+	display: inline-block;
+	overflow: hidden;
+}
+.home_nanshan_span{
+	background-position: -460px 0px;
+	width: 685px;
+	height: 930px;
+	/*position: relative\0;
+	left: 116px\0;
+	top:0px\0;*/
+}
+
+
+
+
+/*
+中高端商旅*/
+
+.home_logo_nav li.home_heyi_zhizun_logobg{
+	left:0px;
+	width:110px;
+}
+
+.home_heyi_zhizun_icon{
+	width: 52px;
+	height: 70px;
+	display: inline-block;
+	overflow: hidden;
+}
+.home_heyi_zhizun_span{
+	background-position: 0 -160px;
+	width: 685px;
+	height: 930px;
+	/*position: relative\0;
+	left: 116px\0;
+	top:0px\0;*/
+}
+
+.home_logo_nav li.home_heyi_zhishang_logobg{
+	left:136px;
+	width:109px;
+}
+
+.home_heyi_zhishang_icon{
+	width: 67px;
+	height: 70px;
+	display: inline-block;
+	overflow: hidden;
+}
+.home_heyi_zhishang_span{
+	background-position: -59px -160px;
+	width: 685px;
+	height: 930px;
+	/*position: relative\0;
+	left: 116px\0;
+	top:0px\0;*/
+}
+
+/*
+home_heyi_zhige_logobg*/
+
+.home_logo_nav li.home_heyi_zhige_logobg{
+	left:271px;
+	width:109px;
+}
+
+.home_heyi_zhige_icon{
+	width: 54px;
+	height: 70px;
+	display: inline-block;
+	overflow: hidden;
+}
+.home_heyi_zhige_span{
+	background-position: -133px -160px;
+	width: 685px;
+	height: 930px;
+	/*position: relative\0;
+	left: 116px\0;
+	top:0px\0;*/
+}
+
+/*
+home_jingxuan_logobg*/
+.home_logo_nav li.home_jingxuan_logobg{
+	left:406px;
+	width:109px;
+}
+
+.home_jingxuan_icon{
+	width:66px;
+	height: 70px;
+	display: inline-block;
+	overflow: hidden;
+}
+.home_jingxuan_span{
+	background-position: -197px -160px;
+	width: 685px;
+	height: 930px;
+	/*position: relative\0;
+	left: 116px\0;
+	top:0px\0;*/
+}
+
+
+/*
+home_shanglv_logobg*/
+.home_logo_nav li.home_shanglv_logobg{
+	left:540px;
+	width:109px;
+}
+
+.home_shanglv_icon{
+	width:64px;
+	height: 70px;
+	display: inline-block;
+	overflow: hidden;
+}
+.home_shanglv_span{
+	background-position: -272px -160px;
+	width: 685px;
+	height: 930px;
+	/*position: relative\0;
+	left: 116px\0;
+	top:0px\0;*/
+}
+
+
+/*home_yiju_jin_logobg*/
+.home_logo_nav li.home_yiju_jin_logobg{
+	left:676px;
+	width:109px;
+}
+
+.home_yiju_jin_icon{
+	width:67px;
+	height: 70px;
+	display: inline-block;
+	overflow: hidden;
+}
+.home_yiju_jin_span{
+	background-position: -345px -160px;
+	width: 685px;
+	height: 930px;
+	/*position: relative\0;
+	left: 116px\0;
+	top:0px\0;*/
+}
+
+
+/*
+home_subo_logobg*/
+.home_logo_nav li.home_subo_logobg{
+	left:812px;
+	width:130px;
+}
+
+.home_subo_icon{
+	width:130px;
+	height: 70px;
+	display: inline-block;
+	overflow: hidden;
+}
+.home_subo_span{
+	background-position: -422px -160px;
+	width: 685px;
+	height: 930px;
+	/*position: relative\0;
+	left: 116px\0;
+	top:0px\0;*/
+}
+
+/*
+home_ruibo_logobg*/
+.home_logo_nav li.home_ruibo_logobg{
+	left:1018px;
+	width:178px;
+}
+
+.home_ruibo_icon{
+	width:123px;
+	height: 70px;
+	display: inline-block;
+	overflow: hidden;
+}
+.home_ruibo_span{
+	background-position: -561px -160px;
+	width: 685px;
+	height: 930px;
+	/*position: relative\0;
+	left: 116px\0;
+	top:0px\0;*/
+}
+
+
+
+/*
+<!--&lt;!&ndash;商旅-->*/
+
+.home_logo_nav li.home_rujia_logobg{
+	left:0px;
+	width:131px;
+}
+
+.home_rujia_icon{
+	width:64px;
+	height: 70px;
+	display: inline-block;
+	overflow: hidden;
+}
+.home_rujia_span{
+	background-position: 0px -319px;
+	width: 685px;
+	height: 930px;
+	/*position: relative\0;
+	left: 116px\0;
+	top:0px\0;*/
+}
+
+.home_logo_nav li.home_motai_logobg{
+	left:168px;
+	width:130px;
+}
+
+.home_motai_icon{
+	width:64px;
+	height: 70px;
+	display: inline-block;
+	overflow: hidden;
+}
+.home_motai_span{
+	background-position: -73px -319px;
+	width: 685px;
+	height: 930px;
+	/*position: relative\0;
+	left: 116px\0;
+	top:0px\0;*/
+}
+
+.home_logo_nav li.home_yssj_logobg{
+	left:335px;
+	width:130px;
+}
+
+.home_yssj_icon{
+	width:74px;
+	height: 70px;
+	display: inline-block;
+	overflow: hidden;
+}
+.home_yssj_span{
+	background-position: -150px -319px;
+	width: 685px;
+	height: 930px;
+	/*position: relative\0;
+	left: 116px\0;
+	top:0px\0;*/
+}
+
+
+.home_logo_nav li.home_yiju_lan_logobg{
+	left:502px;
+	width:130px;
+}
+
+.home_yiju_lan_icon{
+	width:67px;
+	height: 70px;
+	display: inline-block;
+	overflow: hidden;
+}
+.home_yiju_lan_span{
+	background-position: -233px -319px;
+	width: 685px;
+	height: 930px;
+	/*position: relative\0;
+	left: 116px\0;
+	top:0px\0;*/
+}
+
+
+.home_logo_nav li.home_xinyandu_logobg{
+	left:669px;
+	width:130px;
+}
+
+.home_xinyandu_icon{
+	width:70px;
+	height: 70px;
+	display: inline-block;
+	overflow: hidden;
+}
+.home_xinyandu_span{
+	background-position: -310px -319px;
+	width: 685px;
+	height: 930px;
+	/*position: relative\0;
+	left: 116px\0;
+	top:0px\0;*/
+}
+
+.home_logo_nav li.home_yake_logobg{
+	left:836px;
+	width:170px;
+}
+
+.home_yake_icon{
+	width:114px;
+	height: 70px;
+	display: inline-block;
+	overflow: hidden;
+}
+.home_yake_span{
+	background-position: -390px -319px;
+	width: 685px;
+	height: 930px;
+	/*position: relative\0;
+	left: 116px\0;
+	top:0px\0;*/
+}
+
+.home_logo_nav li.home_paibo_logobg{
+	left:1043px;
+	width:150px;
+}
+
+.home_paibo_icon{
+	width:89px;
+	height: 70px;
+	display: inline-block;
+	overflow: hidden;
+}
+.home_paibo_span{
+	background-position: -512px -319px;
+	width: 685px;
+	height: 930px;
+	/*position: relative\0;
+	left: 116px\0;
+	top:0px\0;*/
+}
+
+
+.home_logo_nav li.home_hanshe_logobg{
+	left:140px;
+	width:171px;
+}
+
+.home_hanshe_icon{
+	width:108px;
+	height: 70px;
+	display: inline-block;
+	overflow: hidden;
+}
+.home_hanshe_span{
+	background-position: 0px -479px;
+	width: 685px;
+	height: 930px;
+	/*position: relative\0;
+	left: 116px\0;
+	top:0px\0;*/
+}
+
+
+.home_logo_nav li.home_jialebi_logobg{
+	 left:352px;
+	 width:100px;
+ }
+
+.home_jialebi_icon{
+	width:29px;
+	height: 70px;
+	display: inline-block;
+	overflow: hidden;
+}
+.home_jialebi_span{
+	background-position: -119px -479px;
+	width: 685px;
+	height: 930px;
+	/*position: relative\0;
+	left: 116px\0;
+	top:0px\0;*/
+}
+
+
+.home_logo_nav li.home_manqu_logobg{
+	left:493px;
+	width:134px;
+}
+
+.home_manqu_icon{
+	width:67px;
+	height: 70px;
+	display: inline-block;
+	overflow: hidden;
+}
+.home_manqu_span{
+	background-position: -339px -479px;
+	width: 685px;
+	height: 930px;
+	/*position: relative\0;
+	left: 116px\0;
+	top:0px\0;*/
+}
+
+.home_logo_nav li.home_xiaozhen_logobg{
+	left:668px;
+	width:150px;
+}
+
+.home_xiaozhen_icon{
+	width:99px;
+	height: 70px;
+	display: inline-block;
+	overflow: hidden;
+}
+.home_xiaozhen_span{
+	background-position: -155px -479px;
+	width: 685px;
+	height: 930px;
+	/*position: relative\0;
+	left: 116px\0;
+	top:0px\0;*/
+}
+
+.home_logo_nav li.home_yssj_minsu_logobg{
+	left:859px;
+	width:131px;
+}
+
+.home_yssj_minsu_icon{
+	width:73px;
+	height: 70px;
+	display: inline-block;
+	overflow: hidden;
+}
+.home_yssj_minsu_span{
+	background-position: -260px -479px;
+	width: 685px;
+	height: 930px;
+	/*position: relative\0;
+	left: 116px\0;
+	top:0px\0;*/
+}
+
+
+
+.home_logo_nav li.home_yssj_minsu_logobg{
+	left:859px;
+	width:131px;
+}
+
+.home_yssj_minsu_icon{
+	width:73px;
+	height: 70px;
+	display: inline-block;
+	overflow: hidden;
+}
+.home_yssj_minsu_span{
+	background-position: -260px -479px;
+	width: 685px;
+	height: 930px;
+	/*position: relative\0;
+	left: 116px\0;
+	top:0px\0;*/
+}
+
+
+.home_logo_nav li.home_rujia_lianmeng_logobg{
+	left:282px;
+	width:211px;
+	cursor: default;
+}
+
+.home_rujia_lianmeng_icon{
+	width:123px;
+	height: 70px;
+	display: inline-block;
+	overflow: hidden;
+}
+.home_rujia_lianmeng_span{
+	background-position: 0px -789px;
+	width: 685px;
+	height: 930px;
+	/*position: relative\0;
+	left: 116px\0;
+	top:0px\0;*/
+}
+
+
+.home_logo_nav li.home_huayi_logobg{
+	left:669px;
+	width:211px;
+	cursor: default;
+}
+
+.home_huayi_icon{
+	width:123px;
+	height: 70px;
+	display: inline-block;
+	overflow: hidden;
+}
+.home_huayi_span{
+	background-position: -132px -789px;
+	width: 685px;
+	height: 930px;
+	/*position: relative\0;
+	left: 116px\0;
+	top:0px\0;*/
+}
+
+
+.home_logo_nav li.home_douhao_logobg{
+	left:200px;
+	width:180px;
+	cursor: default;
+}
+
+.home_douhao_icon{
+	width:112px;
+	height: 70px;
+	display: inline-block;
+	overflow: hidden;
+}
+.home_douhao_span{
+	background-position: 0px -639px;
+	width: 685px;
+	height: 930px;
+	/*position: relative\0;
+	left: 116px\0;
+	top:0px\0;*/
+}
+
+
+.home_logo_nav li.home_qingchao_logobg{
+	left:490px;
+	width:180px;
+	cursor: default;
+}
+
+.home_qingchao_icon{
+	width:118px;
+	height: 70px;
+	display: inline-block;
+	overflow: hidden;
+}
+.home_qingchao_span{
+	background-position: -119px -639px;
+	width: 685px;
+	height: 930px;
+	/*position: relative\0;
+	left: 116px\0;
+	top:0px\0;*/
+}
+
+
+.home_logo_nav li.home_douhao_zhijia_logobg{
+	left:760px;
+	width:180px;
+	cursor: default;
+	padding-top: 36px;
+}
+
+.home_douhao_zhijia_icon{
+	width:125px;
+	height: 30px;
+	display: inline-block;
+	overflow: hidden;
+}
+.home_douhao_zhijia_span{
+	background-position: -247px -659px;
+	width: 685px;
+	height: 930px;
+	/*position: relative\0;
+	left: 116px\0;
+	top:0px\0;*/
+}
